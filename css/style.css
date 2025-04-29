@@ -80,7 +80,7 @@ header a {
 .nombre {
     text-align: center;
     width: 100%;
-    font-size: 65px;
+    font-size: 55px;
     font-family: "Istok Web", sans-serif;
     font-weight: 700;
     padding-bottom: 45px;
@@ -117,7 +117,7 @@ header a {
     width: 70%;
     padding: 70px;
     background-color: #D8CACA;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     border-radius: 10px;
 
