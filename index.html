@@ -4,28 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portfolio Web</title>
 </head>
 <body>
     <header>
-        <nav class="menu1">
-            <ul>
-                <div class="home">
-                    <li><a href="index.html">Home</a></li>
-                </div>
+        <a href="index.html" class="home">Home</a>
 
-                <div class="menus">
-                    <div>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                    </div>
-                    <div>
-                        <li><a href="sobre.html">Sobre Mi</a></li>
-                    </div>
-                    <div>
-                        <li><a href="contacto.html">Contacto</a></li>
-                    </div>
-                </div>
-            </ul>
+        <nav class="menu1">
+            <a href="portfolio.html">Portfolio</a>
+            <a href="sobre.html">Sobre Mi</a>
+            <a href="contacto.html">Contacto</a>
         </nav>
     </header>
 
@@ -47,10 +36,14 @@
         </div>
     </section>
 
-    <div class="boton">
-        <div class="boton_contactame">
-             <a href="contacto.html">CONTACTAME</a>
-        </div>
+    <div class="boton_contactame">
+        <a href="contacto.html">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            CONTACTAME
+        </a>
     </div>
 
     <section class="trabajos">
@@ -62,14 +55,86 @@
         </div>
     </section>
 
-    <div>
-        <p>Trabajos</p>
-    </div>
+    <section class="galeria">
+        <div class="galeria_grid">
+            <a href="#image1">
+                <img src="img/galeria/Portada Poster pelicula.jpg" alt="Imagen 1">
+            </a>
+    
+            <a href="#image2">
+                <img src="img/galeria/Portada Ciudad IG.jpg" alt="Imagen 2">
+            </a>
+    
+            <a href="#image3">
+                <img src="img/galeria/Portada Corazon de Melon - Celu.jpg" alt="Imagen 3">
+            </a>
+    
+            <a href="#image4">
+                <img src="img/galeria/Portada Poster videojuego.jpg" alt="Imagen 4">
+            </a>
+    
+            <a href="#image5">
+                <img src="img/galeria/Portada Interior 3D.jpg" alt="Imagen 5">
+            </a>
 
-    <div class="boton">
-        <div class="boton_proyectos">
-             <a href="portfolio.html">VER MÁS PROYECTOS</a>
+            <a href="#image8">
+                <img src="img/galeria/Portada Dia de grabacion.jpg" alt="Imagen 8">
+            </a>
         </div>
+    </section>
+
+    <div>
+        <article class="light-box" id="image1">
+            <a href="#image8" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+                <img src="img/galeria/Poster Pelicula.jpg" alt="Poster de la pelicula 'La isla siniestra' ">
+            <a href="#image2" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="close"><i class="fa-solid fa-xmark"></i></a>
+        </article>
+
+        <article class="light-box" id="image2">
+            <a href="#image1" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+                <video controls>
+                    <source src="img/galeria/Ciudad Emergente IG.mp4" type="video/mp4">
+                </video>
+            <a href="#image3" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="close"><i class="fa-solid fa-xmark"></i></a>
+        </article>
+
+        <article class="light-box" id="image3">
+            <a href="#image2" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+                <img src="img/galeria/Corazon de Melon - Celu.jpg" alt="Imagen de la pagina principal de 'Corazon de melon' ">
+            <a href="#image4" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="close"><i class="fa-solid fa-xmark"></i></a>
+        </article>
+
+        <article class="light-box" id="image4">
+            <a href="#image3" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+                <img src="img/galeria/Poster Videojuego.png" alt="Poster del videojuego 'Resident Evil 4' ">
+            <a href="#image5" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="close"><i class="fa-solid fa-xmark"></i></a>
+        </article>
+
+        <article class="light-box" id="image5">
+            <a href="#image4" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+                <video controls>
+                    <source src="img/galeria/Animacion Interior 3D.mp4" type="video/mp4">
+                </video>
+            <a href="#image8" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="close"><i class="fa-solid fa-xmark"></i></a>
+        </article>
+
+        <article class="light-box" id="image8">
+            <a href="#image5" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+                <video controls>
+                    <source src="img/galeria/Dia de grabación.mp4" type="video/mp4">
+                </video>
+            <a href="#image1" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="close"><i class="fa-solid fa-xmark"></i></a>
+        </article>
+    </div>
+            
+    <div class="boton_proyectos">
+        <a href="portfolio.html">VER MÁS PROYECTOS</a>
     </div>
 
     <section class="comunicate">
@@ -78,32 +143,23 @@
             <h3>comunicate conmigo</h3>
         </div>
 
-        <div class="boton">
-            <div class="boton_contactame">
-                 <a href="contacto.html">CONTACTAME</a>
-            </div>
+        <div class="boton_contactame">
+            <a href="contacto.html">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                CONTACTAME
+            </a>
         </div>
     </section>
 
     <footer class="final">
         <nav class="menu2">
-            <ul>
-                <div>
-                    <li><a href="index.html">Home</a></li>
-                </div>
-
-                <div>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                </div>
-                
-                <div>
-                    <li><a href="sobre.html">Sobre Mi</a></li>
-                </div>
-                
-                <div>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </div>
-            </ul>
+                <a href="index.html">Home</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="sobre.html">Sobre Mi</a>
+                <a href="contacto.html">Contacto</a>
         </nav>
 
         <div class="final_info">

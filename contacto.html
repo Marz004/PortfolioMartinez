@@ -8,24 +8,12 @@
 </head>
 <body>
     <header>
-        <nav class="menu1">
-            <ul>
-                <div class="home">
-                    <li><a href="index.html">Home</a></li>
-                </div>
+        <a href="index.html" class="home">Home</a>
 
-                <div class="menus">
-                    <div>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                    </div>
-                    <div>
-                        <li><a href="sobre.html">Sobre Mi</a></li>
-                    </div>
-                    <div>
-                        <li><a href="contacto.html">Contacto</a></li>
-                    </div>
-                </div>
-            </ul>
+        <nav class="menu1">
+            <a href="portfolio.html" class="portfolio">Portfolio</a>
+            <a href="sobre.html">Sobre Mi</a>
+            <a href="contacto.html">Contacto</a>
         </nav>
     </header>
 
@@ -87,75 +75,48 @@
     </section>
 
     <section class="mensaje">
-        <div>
-            <h2>Deja tu mensaje</h2>
-            <div id="caja_formulario">
-                <form action="" id="formulario">
-                    <div id="nombre">
-                        <label>
-                            Nombre
-                            <input type="text" name="nombre" required>
-                        </label>
+        <div class="contenedor">
+            <form action="" method="">
+                <h2>Deja tu mensaje</h2>
+                <div class="contenido">
+                    <div class="input-box">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" placeholder="Nombre" name="nombre" required>
                     </div>
-                    
-                    <div id="apellido">
-                        <label>
-                            Apellido
-                            <input type="text" name="apellido" required>
-                        </label>
+
+                    <div class="input-box">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" placeholder="Apellido" name="apellido" required>
                     </div>
-                    
-                    <div id="email">
-                        <label>
-                            Email
-                            <input type="email" name="email" required>
-                        </label>
+
+                    <div class="input-box">
+                        <label for="telefono">Telefono</label>
+                        <input type="tel" placeholder="11 12345678" name="telefono" required>
                     </div>
-        
-                    <div id="telefono">
-                        <label>
-                            Telefono
-                            <input type="number" name="telefono" required>
-                        </label>
+
+                    <div class="input-box">
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="ejemplo@correo.com" name="email" required>
                     </div>
-        
-                    <div id="mensaje">
-                        <label>
-                            Mensaje
-                            <textarea name="mensaje" required></textarea>
-                        </label>
+
+                    <div class="input-box">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" placeholder="Quiero agendar una reuinon..." required></textarea>
                     </div>
-                    
-                    <div class="boton">
-                        <div id="boton_enviar">
-                            <input type="submit" value="Enviar">
-                        </div>
-                    </div>
-        
-                    </form>
-            </div>
+                </div>
+
+                <button type="submit" class="boton_enviar">ENVIAR</button>
+
+            </form>
         </div>
     </section>
 
     <footer class="final">
         <nav class="menu2">
-            <ul>
-                <div>
-                    <li><a href="index.html">Home</a></li>
-                </div>
-
-                <div>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                </div>
-                
-                <div>
-                    <li><a href="sobre.html">Sobre Mi</a></li>
-                </div>
-                
-                <div>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </div>
-            </ul>
+            <a href="index.html">Home</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="sobre.html">Sobre Mi</a>
+            <a href="contacto.html">Contacto</a>
         </nav>
 
         <div class="final_info">
