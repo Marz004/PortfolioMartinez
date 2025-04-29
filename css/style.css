@@ -130,7 +130,7 @@ header a {
     justify-content: center;
     align-items: center;
     min-height: 100px;
-    margin-right: 40px;
+    margin-right: 30px;
 }
 
 .boton_contactame a {
@@ -258,7 +258,8 @@ header a {
     padding-top: 15px;
     padding-bottom: 15px;
     border-radius: 10px;
-    margin: 40px 0;
+    margin: 40px;
+    margin-right: 75px;
 
     text-align: center;
     text-decoration: none;
@@ -354,7 +355,9 @@ header a {
 }
 
 .galeria {
-    padding: 40px 120px;
+    padding: 40px;
+    padding-left: 125px;
+    padding-right: 110px;
 }
 
 .galeria img {
@@ -414,7 +417,7 @@ header a {
 }
 
 #image4 img {
-    width: 63%;
+    width: 70%;
 }
 
 #image9 img{
@@ -434,17 +437,17 @@ header a {
 }
 
 .light-box img {
-    width: 32%;
-    max-height: 850px;
+    width: 35%;
+    max-height: 940px;
 }
 
 .light-box video {
-    width: 94%;
-    max-height: 850px;
+    width: 100%;
+    max-height: 950px;
 }
 
 #image2 video {
-    width: 25%;
+    width: 28%;
 }
 
 #image11 video {
