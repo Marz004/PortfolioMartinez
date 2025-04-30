@@ -36,8 +36,8 @@ header a {
 }
 
 .home {
-    padding-left: 15px;
-    width: 5%;
+    padding-left: 13px;
+    width: 6%;
 
     transition: .2s;
 }
@@ -56,7 +56,7 @@ header a {
 }
 
 .menu1 a {
-    width: 18%;
+    width: 21%;
     margin-right: 60px;
 
     transition: .2s;
@@ -83,7 +83,8 @@ header a {
     font-size: 55px;
     font-family: "Istok Web", sans-serif;
     font-weight: 700;
-    padding-bottom: 45px;
+    padding-top: 70px;
+    padding-bottom: 60px;
 }
 
 .subtitulo {
@@ -302,7 +303,7 @@ header a {
 }
 
 .menu2 {
-    width: 45%;
+    width: 50%;
     display: flex;
     justify-content: space-around;
     padding: 80px;
@@ -311,7 +312,7 @@ header a {
 }
 
 .menu2 a {
-    width: 15%;
+    width: 19%;
     text-decoration: none;
     color: #FFFFFF;
     font-size: 23px;
@@ -388,7 +389,7 @@ header a {
 .galeria_grid2 {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
-    grid-auto-rows: 400px;
+    grid-auto-rows: 450px;
     gap: 50px;
     justify-content: center;
 }
@@ -413,11 +414,12 @@ header a {
 }
 
 #image3 img {
-    width: 10%;
+    width: 12%;
+    height: 795px;
 }
 
 #image4 img {
-    width: 70%;
+    width: 75%;
 }
 
 #image9 img{
@@ -425,7 +427,8 @@ header a {
 }
 
 #image10 img{
-    width: 25%;
+    width: 24%;
+    height: 795px;
 }
 
 #image14 img {
@@ -433,25 +436,28 @@ header a {
 }
 
 #image15 img {
-    width: 22%;
+    width: 23%;
+    height: 795px;
 }
 
 .light-box img {
-    width: 35%;
-    max-height: 940px;
-}
-
-.light-box video {
-    width: 100%;
+    width: 38%;
     max-height: 950px;
 }
 
+.light-box video {
+    width: 93%;
+    max-height: 1000px;
+}
+
 #image2 video {
-    width: 28%;
+    width: 29%;
+    height: 800px;
 }
 
 #image11 video {
-    width: 30%;
+    width: 29%;
+    height: 800px;
 }
 
 .light-box:target {
@@ -466,8 +472,8 @@ header a {
     background-color: #BDB2C1;
     color: #FFFFFF;
     text-decoration: none;
-    width: 2%;
-    height: 5%;
+    width: 3%;
+    height: 6%;
     text-align: center;
     line-height: 50px;
     border-radius: 10%;
@@ -538,7 +544,7 @@ header a {
 
 .boton_categoria {
     background-color: #BDB2C1;
-    width: 30%;
+    width: 31%;
     text-align: center;
     padding: 18px 0;
     border-radius: 10px;
@@ -562,7 +568,7 @@ header a {
 
 #seleccion_vid {
     background-color: #B09EB7;
-    width: 30%;
+    width: 31%;
     padding: 18px 0;
     border-radius: 10px;
     text-align: center;
@@ -594,7 +600,7 @@ header a {
 
 #seleccion_animacion {
     background-color: #B09EB7;
-    width: 30%;
+    width: 31%;
     padding: 18px 0;
     border-radius: 10px;
     text-align: center;
@@ -608,7 +614,7 @@ header a {
 
 #seleccion_diseno {
     background-color: #B09EB7;
-    width: 30%;
+    width: 31%;
     padding: 18px 0;
     border-radius: 10px;
     text-align: center;
@@ -629,16 +635,17 @@ header a {
 #sobre {
     text-align: left;
     width: 52%;
-    font-size: 65px;
+    font-size: 50px;
     font-family: "Istok Web", sans-serif;
     font-weight: 700;
     padding-top: 220px;
-    padding-right: 200px;
+    padding-left: 80px;
 }
 
 #foto {
     width: 25%;
     padding-top: 70px;
+    margin-right: 120px;
 }
 
 #foto img {
@@ -652,41 +659,32 @@ header a {
 }
 
 #informacion p {
-    font-size: 40px;
+    font-size: 28px;
     font-family: "acumin-variable",sans-serif;
     font-variation-settings: 'wght' 500, 'wdth' 100, 'slnt' 0;
 }
 
 #parrafo1 {
     background-color: #D8CACA;
-    width: 78%;
+    width: 72%;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding: 30px 30px;
     margin-bottom: 30px;
 }
 
 #parrafo2 {
     background-color: #D8CACA;
-    width: 78%;
+    width: 75%;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 110px;
-    padding-right: 110px;
+    padding: 30px 110px;
     margin-bottom: 30px;
 }
 
 #parrafo3 {
     background-color: #D8CACA;
-    width: 78%;
+    width: 79%;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 140px;
-    padding-right: 140px;
+    padding: 40px 90px;
     margin-bottom: 30px;
 }
 
@@ -694,12 +692,12 @@ header a {
     display: flex;
     justify-content: center;
     margin-bottom: 80px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .habilidades h2 {
     font-family: "Istok Web", sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 35px;
     margin-bottom: 10px;
 }
@@ -707,8 +705,9 @@ header a {
 #educacion {
     text-align: left;
     font-family: "acumin-variable",sans-serif;
-    font-variation-settings: 'wght' 500, 'wdth' 100, 'slnt' 0;
+    font-variation-settings: 'wght' 400, 'wdth' 100, 'slnt' 0;
     width: 40%;
+    margin-left: 65px;
 }
 
 #ISEC {
@@ -837,10 +836,10 @@ header a {
 
 #colaborar {
     width: 70%;
-    font-size: 65px;
+    font-size: 50px;
     font-family: "Istok Web", sans-serif;
     font-weight: 700;
-    padding-top: 110px;
+    padding-top: 140px;
 }
 
 .titulo_contacto span {
@@ -849,7 +848,7 @@ header a {
     border: 2px none;
     border-radius: 10px;
     background-color: #BDB2C1;
-    margin-top: 90px;
+    margin-top: 70px;
 }
 
 .redes {
@@ -916,14 +915,15 @@ header a {
 }
 
 .contenedor {
-    width: 60%;;
+    width: 60%;
+    margin-left: 70px;
 }
 
 .contenedor h2 {
     font-size: 60px;
     font-family: "Istok Web", sans-serif;
     font-weight: 500;
-    padding-right: 32px;
+    padding-right: 48px;
     text-align: center;
 }
 
@@ -967,7 +967,7 @@ header a {
     width: 15%;
     height: 50px;
     margin-top: 50px;
-    margin-left: 450px;
+    margin-left: 360px;
     border-radius: 5px;
     font-size: 26px;
     border: none;
