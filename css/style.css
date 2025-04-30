@@ -500,6 +500,7 @@ header a {
     background-color: #B09EB7;
 }
 
+
 /* MENU CATEGORIAS */
 
 .mini_menu {
@@ -563,6 +564,7 @@ header a {
     text-decoration: none;
     font-size: 30px;
 }
+
 
 /* MENU CATEGORIAS VIDEOS E IMAGENES */
 
@@ -638,7 +640,7 @@ header a {
     font-size: 50px;
     font-family: "Istok Web", sans-serif;
     font-weight: 700;
-    padding-top: 220px;
+    padding-top: 200px;
     padding-left: 80px;
 }
 
@@ -808,7 +810,7 @@ header a {
     margin-left: 35px;
 }
 
-#blnder_estadistica h3 {
+#blender_estadistica h3 {
     margin-bottom: 10px;
 }
 
@@ -828,10 +830,8 @@ header a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
-
-.titulo_contacto {
     text-align: center;
+    margin-left: 20%;
 }
 
 #colaborar {
@@ -985,4 +985,199 @@ header a {
 
 .boton_enviar:hover {
     background-color: #B09EB7;
+}
+
+
+@media  (max-width: 1600px) {
+    .home {
+        padding-left: 9px;
+        width: 6%;
+    
+        transition: .2s;
+    }
+
+    .menu1 {
+        width: 42%;
+    }
+
+    .menu1 a {
+        width: 22%;
+        margin-right: 0;
+    }
+
+    .nombre {
+        margin-left: 2%;
+    }
+
+    #intro {
+        font-size: 29px;
+    }
+
+    .boton_proyectos a {
+        font-size: 20px;
+    }
+
+    .menu2 {
+        width: 60%;
+    }
+
+    .galeria {
+        padding: 40px;
+        padding-left: 110px;
+        padding-right: 110px;
+    }
+
+    .galeria_grid2 {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        grid-auto-rows: 450px;
+        gap: 50px;
+        justify-content: center;
+    }
+    
+    #image3 img {
+        width: 10%;
+        height: 610px;
+    }
+    
+    #image4 img {
+        width: 64%;
+    }
+
+    #image9 img{
+        width: 80%;
+    }
+
+    #image10 img{
+        width: 24%;
+        height: 610px;
+    }
+
+    #image14 img {
+        width: 80%;
+    }
+
+    #image15 img {
+        width: 23%;
+        height: 610px;
+    }
+
+    .light-box img {
+        width: 32%;
+    }
+
+    .light-box video {
+        width: 80%;
+        max-height: 620px;
+    }
+    
+    #image2 video {
+        width: 26%;
+    }
+
+    #image11 video {
+        width: 26%;
+    }
+
+    .close {
+        width: 3%;
+        height: 8%;
+    }
+
+    .mini_menu a {
+        text-decoration: none;
+        font-size: 25px;
+    }
+
+    #sobre {
+        padding-top: 220px;
+        padding-left: 100px;
+        font-size: 48px;
+        margin-bottom: 20%;
+        margin-right: 4%;
+    }
+
+    #foto {
+        width: 30%;
+        padding-top: 70px;
+        margin-right: 90px;
+    }
+
+    #foto img {
+        width: 100%;
+        height: 500px;
+    }
+
+    #informacion {
+        margin-left: 2%;
+    }
+
+    .habilidades h2 {
+        margin-bottom: 8%;
+    }
+
+    #herramientas h2 {
+        margin-bottom: 10%;
+    }
+
+    .programas {
+        margin-bottom: 10%;
+    }
+
+    .logo img {
+        margin-top: 5%;
+        width: 100%;
+        height: 85%;
+    }
+
+    #logo_blender img {
+        height: 110px;
+        padding-right: 10px;
+    }
+
+    #blender_estadistica {
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+    }
+    
+    #blender_estadistica h3 {
+        margin-bottom: 10px;
+    }
+    
+    #blender_estadistica img {
+        height: 70px;
+    }
+    
+    #logo_figma img {
+        height: 120px;
+        padding-left: 35px;
+    }
+
+    .titulo_contacto {
+        margin-left: 3%;
+    }
+
+    .redes {
+        margin-left: 3%;
+    }
+
+    #contacto2 {
+        margin-left: 5%;
+    }
+
+    .contenedor {
+        margin-left: 2%;
+    }
+
+    .boton_enviar {
+        margin-left: 39%;
+    }
+}
+
+@media  (max-width: 600px) {
+    .light-box img {
+        width: 62%;
+        max-height: 650px;
+    }
 }
